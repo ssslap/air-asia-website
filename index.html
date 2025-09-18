@@ -3,156 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air Asia - Авиакомпания</title>
+    <title>Авторские туры по Азии</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="wrapper">
-        <!-- Header Section -->
+<body class="home-page">
+    <div class="container">
         <header class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <div class="header__logo">
-                        <a href="#" class="logo">
-                            <img src="assets/logo.svg" alt="Air Asia Logo" class="logo__image">
-                        </a>
-                    </div>
-                    
-                    <nav class="header__nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Главная</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Услуги</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Отзывы</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    <div class="header__contacts">
-                        <a href="tel:+78001234567" class="contact__phone">8 800 123-45-67</a>
-                    </div>
+            <div class="logo">
+                <img src="air-asia-logo.png" alt="Air Asia">
+            </div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="reviews.html">Отзывы</a>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:88007003030" class="phone-number">8 800 700 30 30</a>
+                <div class="work-hours">
+                    <span>Пн-вс: 09:00 - 20:00</span>
+                    <span>Обед: 13:00-14:30</span>
                 </div>
             </div>
         </header>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero__content">
-                    <h1 class="hero__title">Путешествуйте с комфортом</h1>
-                    <p class="hero__subtitle">Лучшие направления по доступным ценам</p>
-                    <button class="hero__button">Забронировать рейс</button>
+        <main class="main">
+            <section class="hero">
+                <h1>Авторские туры по Азии</h1>
+                <p>Открой для себя Азию</p>
+                <button class="btn">Подробнее</button>
+            </section>
+
+            <section class="tours">
+                <h2>Горящие туры 🔥</h2>
+                <div class="tour-cards">
+                    <div class="card">
+                        <img src="thailand.jpg" alt="Таиланд">
+                        <div class="card-content">
+                            <h3>Таиланд</h3>
+                            <div class="card-details">
+                                <span>📅 7- 12 ночей</span>
+                                <span>🍽️ Завтраки</span>
+                            </div>
+                            <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <a href="#" class="card-link">СМОТРЕТЬ</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="bali.jpg" alt="Бали">
+                        <div class="card-content">
+                            <h3>Бали</h3>
+                            <div class="card-details">
+                                <span>📅 7- 12 ночей</span>
+                                <span>🍽️ Завтраки</span>
+                            </div>
+                            <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <a href="#" class="card-link">СМОТРЕТЬ</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="indonesia.jpg" alt="Индонезия">
+                        <div class="card-content">
+                            <h3>Индонезия</h3>
+                            <div class="card-details">
+                                <span>📅 7- 12 ночей</span>
+                                <span>🍽️ Завтраки</span>
+                            </div>
+                            <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <a href="#" class="card-link">СМОТРЕТЬ</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Services Section -->
-        <section class="services">
-            <div class="container">
-                <h2 class="section__title">Наши услуги</h2>
-                <ul class="services__list">
-                    <li class="services__item">
-                        <div class="service__icon">✈️</div>
-                        <h3 class="service__title">Авиаперелеты</h3>
-                        <p class="service__description">Прямые рейсы в более чем 50 стран мира</p>
-                    </li>
-                    <li class="services__item">
-                        <div class="service__icon">🏨</div>
-                        <h3 class="service__title">Отели</h3>
-                        <p class="service__description">Бронирование отелей со специальными ценами</p>
-                    </li>
-                    <li class="services__item">
-                        <div class="service__icon">🚗</div>
-                        <h3 class="service__title">Трансферы</h3>
-                        <p class="service__description">Комфортабельный транспорт от/до аэропорта</p>
-                    </li>
-                    <li class="services__item">
-                        <div class="service__icon">🌴</div>
-                        <h3 class="service__title">Туры</h3>
-                        <p class="service__description">Готовые туристические пакеты</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            <section class="news">
+                <h2>Новости и акции</h2>
+                <div class="news-cards">
+                    <div class="news-card">
+                        <img src="news1.jpg" alt="Дешевые путевки на Новый Год">
+                        <div class="news-content">
+                            <span class="date">Декабрь, 2019</span>
+                            <h3>Дешевые путевки на Новый Год!</h3>
+                            <p>Проведи новый год в Таиланде</p>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="news2.jpg" alt="Акция для серфенгистов!">
+                        <div class="news-content">
+                            <span class="date">Декабрь, 2019</span>
+                            <h3>Акция для серфенгистов!</h3>
+                            <p>Вся наша команда ищет для вас билеты в Таиланд на остров серфенгистов. Удачного пути!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <span>Страница 1 из 7</span>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                </div>
+            </section>
 
-        <!-- Popular Destinations -->
-        <section class="destinations">
-            <div class="container">
-                <h2 class="section__title">Популярные направления</h2>
-                <ul class="destinations__list">
-                    <li class="destinations__item">
-                        <img src="assets/bangkok.jpg" alt="Бангкок" class="destination__image">
-                        <h3 class="destination__title">Бангкок</h3>
-                        <p class="destination__price">от 25 000 ₽</p>
-                    </li>
-                    <li class="destinations__item">
-                        <img src="assets/bali.jpg" alt="Бали" class="destination__image">
-                        <h3 class="destination__title">Бали</h3>
-                        <p class="destination__price">от 35 000 ₽</p>
-                    </li>
-                    <li class="destinations__item">
-                        <img src="assets/singapore.jpg" alt="Сингапур" class="destination__image">
-                        <h3 class="destination__title">Сингапур</h3>
-                        <p class="destination__price">от 30 000 ₽</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            <section class="about">
+                <div class="about-image">
+                    <img src="about-us.png" alt="О нас">
+                </div>
+                <div class="about-content">
+                    <h2>О нас</h2>
+                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                    <button class="btn">Подробнее</button>
+                </div>
+            </section>
+        </main>
 
-        <!-- Footer -->
         <footer class="footer">
-            <div class="container">
-                <div class="footer__content">
-                    <div class="footer__logo">
-                        <img src="assets/logo-white.svg" alt="Air Asia Logo" class="footer__logo-image">
-                    </div>
-                    
-                    <nav class="footer__nav">
-                        <ul class="footer__nav-list">
-                            <li class="footer__nav-item">
-                                <a href="#" class="footer__nav-link">О компании</a>
-                            </li>
-                            <li class="footer__nav-item">
-                                <a href="#" class="footer__nav-link">Вакансии</a>
-                            </li>
-                            <li class="footer__nav-item">
-                                <a href="#" class="footer__nav-link">Партнеры</a>
-                            </li>
-                            <li class="footer__nav-item">
-                                <a href="#" class="footer__nav-link">Помощь</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    <div class="footer__social">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="#" class="social__link">Facebook</a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">Instagram</a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">Twitter</a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">YouTube</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__contact">
-                        <p class="footer__phone">8 800 123-45-67</p>
-                        <p class="footer__email">info@airasia.com</p>
-                    </div>
-                </div>
+            <div class="logo">
+                <img src="air-asia-logo.png" alt="Air Asia">
+            </div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="reviews.html">Отзывы</a>
+            </nav>
+            <div class="social-media">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="contact-info">
+                <a href="tel:88007003030" class="phone-number">8 800 700 30 30</a>
             </div>
         </footer>
     </div>
