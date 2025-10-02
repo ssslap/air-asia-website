@@ -7,33 +7,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
-                <a href="index.html"><img src="air-asia-logo.png" alt="Air Asia"></a>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="air-asia-logo.png" alt="Air Asia"></a>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="reviews.html">Отзывы</a>
+        </nav>
+        <div class="contact-info">
+            <a href="tel:88007003030" class="phone-number">8 800 700 30 30</a>
+            <div class="work-hours">
+                <span>Пн-вс: 09:00 - 20:00</span>
             </div>
-            <nav class="nav">
-                <a href="index.html">Главная</a>
-                <a href="services.html">Услуги</a>
-                <a href="reviews.html">Отзывы</a>
-            </nav>
-            <div class="contact-info">
-                <a href="tel:88007003030" class="phone-number">8 800 700 30 30</a>
-                <div class="work-hours">
-                    <span>Пн-вс: 09:00 - 20:00</span>
-                </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-hero" style="background-image: linear-gradient(rgba(14, 29, 37, 0.7), rgba(14, 29, 37, 0.7)), url('./head.jpg');">
+            <h1>Услуги</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Услуги</span>
             </div>
-        </header>
+        </section>
 
-        <main class="main">
-            <section class="page-hero" style="background-image: linear-gradient(rgba(14, 29, 37, 0.7), rgba(14, 29, 37, 0.7)), url('./head.jpg');">
-                <h1>Услуги</h1>
-                <div class="breadcrumbs">
-                    <a href="index.html">Главная</a> / <span>Услуги</span>
-                </div>
-            </section>
-
-            <section class="services-section">
+        <section class="services-section">
+            <div class="container">
                 <div class="service-list">
                     <!-- Service Item 1 -->
                     <div class="service-item">
@@ -68,9 +68,11 @@
                     <a href="#">6</a>
                     <a href="#">7</a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="partners-section">
+        <section class="partners-section">
+            <div class="container">
                 <h2>Партнеры</h2>
                 <div class="partners-logos">
                     <img src="logo-pobeda.png" alt="Pobeda">
@@ -82,10 +84,12 @@
                     <img src="logo-ural.png" alt="Ural Airlines">
                     <img src="logo-pegas.png" alt="Pegas Touristik">
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <footer class="footer">
+    <footer class="footer">
+        <div class="container">
             <div class="logo">
                 <a href="index.html"><img src="air-asia-logo.png" alt="Air Asia"></a>
             </div>
@@ -102,7 +106,7 @@
             <div class="contact-info">
                 <a href="tel:88007003030" class="phone-number">8 800 700 30 30</a>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
